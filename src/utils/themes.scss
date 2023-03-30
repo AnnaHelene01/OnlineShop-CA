@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Righteous&display=swap');
+
+h1 {
+    font-family: 'Righteous', cursive;
+    color: #070480;
+}
+
+h6 {
+    font-family: 'Righteous', cursive;
+}
+
+p, label, input:placeholder-shown, span {
+    font-family: 'Dosis', sans-serif;
+}
+
+button {
+    background-color: #070480;
+    font-family: 'Dosis', sans-serif;
+}
+
+header h3 a, h5 a {
+    color: #070480;
+    text-decoration: none;
+}
+
+hr, span {
+    color: #FF7D7D;
+}
+
+button {
+    border: none;
+}

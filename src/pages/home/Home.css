@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Righteous&display=swap');
+
+p, h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.img-frontpage {
+    object-fit: cover;
+    width: 400px;
+    height: 360px;
+}
+
+@media only screen and (max-width: 460px) {
+    .img-frontpage {
+        width: 290px;
+        height: 260px;
+    }
+  }
+  

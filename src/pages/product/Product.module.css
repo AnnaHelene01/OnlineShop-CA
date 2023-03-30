@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Righteous&display=swap');
+
+/*Font */
+h1 {
+    font-family: 'Righteous', cursive;}
+
+p, h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.infoStar {
+    display: flex;
+}
+
+.productStar {
+    font-size: 3rem;
+    color: #FF7D7D;
+}
+
+/* Dropdown / popup text */
+.detailsSection {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.question {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  width: 400px;
+  text-align: left;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.active, .question:hover {
+    background-color: #070480;
+    color: white;
+}
+
+.oftenasked {
+  padding: 0 18px;
+  max-width: 300px;
+}
+
+.infoSection {
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+}
+
+/*Image */
+img {
+  height: 600px;
+}
+
+/* Disconunt in prosent: */
+.prosentDiscount {
+  margin-top: 1rem;
+  background-color: #FF7D7D;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  left: 4rem;
+  top: 5rem;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  img {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  img {
+    height: 300px;
+    
+  }
+}
