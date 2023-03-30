@@ -3,7 +3,6 @@ import { Container, Offcanvas } from 'react-bootstrap';
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { useState } from 'react'
 import ShopProduct from './components/ShopProduct';
-import Discount from './components/Checkout';
 import { MDBBtn, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart } from '../../state/cart/cartSlice';
