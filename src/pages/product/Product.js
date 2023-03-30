@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useParams } from "react-router-dom";
 import useApi from '../../hooks/useApi';
 import { URL } from '../../utils/constants';
@@ -9,6 +9,7 @@ import { AiFillStar } from "react-icons/ai"
 import { useDispatch } from 'react-redux';
 import { addProduct } from '../../state/cart/cartSlice';
 import { Alert } from 'react-bootstrap';
+import Details from './components/Details';
 
 const Product = () => {
     const { productId } = useParams()
@@ -61,6 +62,9 @@ const Product = () => {
     }
     console.log(handleAdd);  
 
+    //Design
+
+
   return (
     <>
       <Container className="mt-5">
@@ -92,19 +96,7 @@ const Product = () => {
                 <ShopBtn onClick={handleAdd}>Add to cart</ShopBtn>
 
                 <Hr></Hr>
-
-                <div className={styles.detailsSection}>
-                <button type="button" className={styles.question}>Shipping and return</button>
-                    <div className={styles.oftenasked}>
-                        <p className={styles.detailsTxt}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei</p>
-                    </div>
-                    <button type="button" className={styles.question}>Warranty</button>
-                    <div className={styles.oftenasked}>
-                        <p className={styles.detailsTxt}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei</p>
-                    </div>
-
-                <Hr></Hr>
-            </div>
+                <Details />
             </Col>
         </Row>
   </Container> 
