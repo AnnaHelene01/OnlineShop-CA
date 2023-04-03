@@ -6,11 +6,10 @@ const initialState = {
   totalAmount: 0,
 };
 
-
 export const cartSlice = createSlice({
-  // The name of our reducer
+  // The name of reducer
   name: 'cart',
-  // The initial state of our reducer
+  // The initial state of reducer
   initialState,
   // These are the actions that will be made available
   reducers: {

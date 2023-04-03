@@ -47,9 +47,9 @@ const ShopProduct = () => {
                   </MDBCol>
                   <MDBCol md="2 p-0" lg="2 p-0" xl="2 p-0"
                     className="d-flex align-items-center justify-content-around">
-                      <MDBBtn size ="sm" onClick={() => handleIncrease(product)}>+</MDBBtn>
+                      <MDBBtn size ="sm" onClick={() => handleIncrease(product)} style={{backgroundColor: "#FF7D7D", border: "none"}}>+</MDBBtn>
                     <p className='p-2 mt-2'>{product.amount}</p>
-                    <MDBBtn size="sm" onClick={() => handleDecrease(product)}>-</MDBBtn>
+                    <MDBBtn size="sm" onClick={() => handleDecrease(product)} style={{backgroundColor: "#FF7D7D", border: "none"}}>-</MDBBtn>
                   </MDBCol>
                   <MDBCol md="3" lg="3" xl="3" className="offset-lg-1">
                     <MDBTypography tag="p" className="mb-0">

@@ -34,7 +34,7 @@ const Sidebar = () => {
                       onClick={() => dispatch(clearCart())}
                       block
                       size="lg"
-                      style={{ backgroundColor: "#FF7D7D" }}
+                      style={{ backgroundColor: "#FF7D7D", border: "none", fontSize: "1rem" }}
                     >
                       CLEAR CART
                     </MDBBtn>

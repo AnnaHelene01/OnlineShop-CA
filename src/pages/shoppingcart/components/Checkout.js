@@ -10,7 +10,7 @@ const Checkout = () => {
         <MDBCard>
           <MDBCardBody>
             <Link to='/checkout' className='text-decoration-none text-white' >
-              <MDBBtn block size="lg" style={{backgroundColor: "#FF7D7D"}}>
+              <MDBBtn block size="lg" style={{backgroundColor: "#FF7D7D", border: "none", fontSize: "1rem"}}>
                  Go to checkout
               </MDBBtn>
             </Link>
