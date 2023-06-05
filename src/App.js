@@ -5,6 +5,7 @@ import Contact from "./pages/contact/Contact";
 import Checkout from "./pages/checkout/Checkout";
 import Success from "./pages/success/Success";
 import Layout from "./components/layout/Layout";
+import ListProducts from "./pages/products/ListProducts";
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
     <Layout>
       <div className="main">
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/home' element={<Home />}/>
+          <Route path='/products' element={<ListProducts />}/>
           <Route path='/product/:productId' element={<Product />}/>
           <Route path='/checkout' element={<Checkout />}/>
           <Route path='/contact' element={<Contact />}/>

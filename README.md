@@ -57,3 +57,8 @@ npm install @hookform/resolvers yup
 ```
 npm i sass
 ```
+
+#### Carousel
+```
+npm install react-slick slick-carousel
+```

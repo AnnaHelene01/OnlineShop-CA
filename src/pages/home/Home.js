@@ -1,8 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Products from "./components/Products";
 import img from "./images/collection.png";
 import './Home.css'
 import { Header } from "../../components/styled-components/SiteStyles";
+import Featured from "./components/Featured";
+import OnSale from "./components/OnSale";
 
 const Home = () => {
     return (
@@ -19,8 +20,8 @@ const Home = () => {
           </Col>
          </Row>
       </Container>
-  
-        <Products />
+      <Featured />
+      <OnSale />
       </>
     )
   };

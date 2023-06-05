@@ -65,7 +65,7 @@ const Products = () => {
                 <Col sm="12" md="6" lg="4">
                 <MDBCard className="m-3">
                 <MDBCardImage src={item.imageUrl} position='top' alt={item.title} style={{ height: "300px", objectFit: "cover" }} />
-                <MDBCardBody>
+                <MDBCardBody> 
                     <MDBCardTitle><Link to={`/product/${item.id}`} key={idx}>{item.title}</Link></MDBCardTitle>
                     <MDBCardText>
                     <p>{originalPrice}</p>

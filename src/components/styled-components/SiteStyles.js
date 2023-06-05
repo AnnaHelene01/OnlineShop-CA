@@ -45,3 +45,12 @@ export const Hr = styled.hr`
    margin-top: 30px;
    margin-bottom: 30px;
 `
+export const RoundedBtn = styled.button`
+    width: 200px;
+    padding: 15px;
+    background-color: #FF7D7D;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+`;
