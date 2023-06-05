@@ -21,7 +21,7 @@ const Nav = () => {
         <header className={styles.header}>
             <h3 class={styles.logo}><Link to='/' >AnnaBiz</Link></h3>
             <nav ref={navRef} className={styles.navMenu}>
-                <Link to='/home' >Home</Link>
+                <Link to='/' >Home</Link>
                 <Link to='/products' >Products</Link>
                 <Link to='/contact' >Contact</Link>
                 <button className={styles.shopBtn} style={{ position: "relative"}}>

@@ -14,7 +14,7 @@ const App = () => {
     <Layout>
       <div className="main">
         <Routes>
-          <Route path='/home' element={<Home />}/>
+          <Route path='/' element={<Home />}/>
           <Route path='/products' element={<ListProducts />}/>
           <Route path='/product/:productId' element={<Product />}/>
           <Route path='/checkout' element={<Checkout />}/>
